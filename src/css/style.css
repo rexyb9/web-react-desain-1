@@ -1,0 +1,35 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    padding: 10px 0 10px 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all .2s ease-in-out;
+}
+
+.navbar.color-active {
+    background-color: #212529;
+    transform: scaleY(1);
+    padding: 15px 0 15px 0;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../assets/img/hero/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.gallery img {
+    height: 250px;
+}
