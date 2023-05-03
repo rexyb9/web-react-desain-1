@@ -6,6 +6,11 @@ import NavbarComp from "./components/NavbarComp"
 import ServicesComp from "./components/ServicesComp"
 
 import "./css/style.css"
+import 'animate.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const App = () => {
   return (
@@ -15,6 +20,8 @@ const App = () => {
       <GalleryComp />
       <ServicesComp />
       <FaqComp />
+
+
       <FooterComp />
     </div>
   )
